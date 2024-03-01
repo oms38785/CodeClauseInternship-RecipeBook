@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1D232A;
+}
+
+h1{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h2{
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+h3{
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+h4{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 260px;
+}
+
+pre{
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 250px;
+}
+
+.Brocoli{
+    margin-left: 350px;
+    margin-top: 50px;
+    height: 600px;
+    width: 700px;
+}
+
+.logo{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}

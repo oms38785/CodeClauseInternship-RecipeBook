@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url(dark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 360px;
+  margin-left: 750px;
+
+
+}
+
+
+
+.container{
+  width: 300px;
+  height: 390px;
+  border: 1px solid #fff; 
+  position: absolute;
+  box-shadow:20px 50px 90px;
+  border: none;
+  border-radius: 10px;
+
+  
+}
+ 
+
+.box{
+  position: relative;
+  display: grid;
+  margin-top: 40px;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.em{
+   width: 100%;
+   padding: 8px;
+   border-radius: 10px;
+   border: none;
+   backdrop-filter: blur(15px);
+   background-color: transparent;
+   color: #fff;
+   
+   
+
+}
+
+.ps{
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  color: #fff;
+}
+
+.fs{
+   margin-left: 50px;
+  text-decoration: none;
+  color: grey;
+}
+
+.fs:hover{
+  color: #fff
+}
+
+.btn{
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  color: grey;
+  backdrop-filter: blur(15px);
+}
+
+.btn:hover{
+   color: #fff;
+  border: 1px solid black;
+}
+
+.ca{
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+   border: none; 
+  text-decoration: none;
+  cursor: pointer;
+  color: grey;
+   width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  /* background-color: transparent; */
+}
+
+.ca:hover{
+  color:#fff;
+
+}
+
+.as{
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+}
+
+.as:hover{
+  border: 1px solid black;
+}
+
+.img{
+  height: 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+.me{
+color: grey;
+}
+.me:hover{
+  color: #fff;
+  
+}
+.rf{
+  display: flex;
+}
+
+.title{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: -0.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.title::before, .title::after{
+  content: "";
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
